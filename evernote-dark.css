@@ -1,0 +1,175 @@
+@-moz-document domain("evernote.com")  {
+
+  body, .GPLOIDFCCLB, #gwt-debug-NoteAttributesView-root, .GPLOIDFCCR, .GPLOIDFCIIB, .GPLOIDFCNIB, .GPLOIDFCO3, .GPLOIDFCMD .GPLOIDFCP3, .GPLOIDFCDLB {
+    background-color: #333;
+    color: #fff;
+    border-color: #000;
+  }
+  
+  /* Toolbox */
+  #gwt-debug-MetaBarView-root {
+    background-color: #777; 
+    box-shadow: 0px 0px 5px #333 inset;
+  }
+  
+  #gwt-debug-FormattingBar-root, .GPLOIDFCIIB, .GPLOIDFCNIB, .GPLOIDFCO3, .GPLOIDFCIIB {
+   background: none; 
+  }
+  
+  .GPLOIDFCCIB {
+    border-bottom: none;
+  }
+
+  /* Toolbar Buttons */
+  .GPLOIDFCJ3 {
+    
+  }
+  
+  /* Toolbar separater */
+  .GPLOIDFCF3, .GPLOIDFCEIB {
+    border-color: rgba(0,0,0,0.5);
+  }
+  
+  /* Share button */
+  .GPLOIDFCDMB, .GPLOIDFCBMB {
+    border-color: black;
+  }
+  
+  /* Dropdown Menus */
+  .GPLOIDFCBK, .GPLOIDFCOF, #gwt-debug-NoteSnippetOptionMenu-root, .GPLOIDFCNL {
+    background-color: rgba(0,0,0,0.8);
+    border-color: #000;
+  }
+  /* Dropdown Menu Items */
+  .GPLOIDFCCK, .GPLOIDFCPJ, #gwt-debug-NoteSnippetOptionMenu-root .qa-selectable  {
+    background: none;
+    color: white;
+  }
+  
+  /* Left Sidebar */
+  .GPLOIDFCN5B {
+    background-color: #444;
+    border-color: #000;
+  }
+
+    /* Header */
+    .GPLOIDFCEXB {
+      border-bottom: 1px solid black;
+    }
+  
+    .GPLOIDFCNQ {
+      
+    }
+  
+    .GPLOIDFCJQ {
+      
+    }
+  
+   .GPLOIDFCBAC .GPLOIDFCJT {
+     visibility: hidden;
+   }
+  
+  .GPLOIDFCBAC .GPLOIDFCMT>div {
+    width: 36px;
+    height: 36px;
+    border: 1px solid green;
+    border-radius: 25px;
+  }
+   
+    /* Note Title */
+    .qa-title {
+      color: #fff;
+    }
+  
+    /* Selected Note */
+    .GPLOIDFCNQ.GPLOIDFCDR .GPLOIDFCCR {
+      border: 3px solid #535353;
+    }
+  
+    /* Note Separater */
+    .GPLOIDFCIR {
+      border-top: 1px solid black;
+    }
+  
+  .GPLOIDFCL4B {
+    border-color: black;
+  }
+
+  /* Main View */
+  #gwt-debug-stage.GPLOIDFCNAC.GPLOIDFCGAC {
+
+
+  }
+
+    /* Middle Container */
+    .GPLOIDFCBBC {
+
+    }
+  /* Note view */
+  .GPLOIDFCHNB {
+    border-color: black;
+  }
+  
+  /* Overlay */
+  .GPLOIDFCIAC {
+    background-color: #000;
+  }
+  
+  /* Notes Search */
+  .GPLOIDFCH0B {
+    background-color: #000;
+  }
+  
+  .highlight {
+    background-color: rgba(45, 190, 96, 0.5);
+    border: 1px solid #2DBE60;
+  }
+  
+  .GPLOIDFCC2B {
+    background-color: rgba(255,255,255,0.2);
+  }
+  
+  .GPLOIDFCL1B {
+    color: white;
+  }
+  
+  /* Drawer headings */
+  .GPLOIDFCF4B, .GPLOIDFCEWB, .GPLOIDFCJUB, .focus-drawer-TagsDrawer-TagsDrawer-header {
+    color: white;
+  }
+  
+  /* Shortcuts */
+  .GPLOIDFCE3B {
+    color: rgba(255,255,255,0.7);
+  }
+  
+  /* Notebooks Drawer */
+  .GPLOIDFCPEB {
+    background-color: #333;
+  }
+  
+  /* Search Box */
+  .GPLOIDFCDUB, .GPLOIDFCEJ, input {
+    color: white;
+  }
+  
+  .GPLOIDFCIUB {
+    border-color: black;
+  }
+  
+  /* Tags */
+  .focus-drawer-TagsDrawer-TagSelectable-container {
+    background-color: rgba(0,0,0,0.3);
+    border: 1px solid black;
+    color: white;
+  }
+  
+  .focus-drawer-TagsDrawer-TagSelectable-name {
+    color: rgba(255,255,255,0.7);
+  }
+  
+  .focus-drawer-TagsDrawer-TagHeader-tag-header {
+    color: white;
+  }
+}
+

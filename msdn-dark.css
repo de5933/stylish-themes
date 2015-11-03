@@ -1,0 +1,82 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+
+
+@-moz-document domain("msdn.microsoft.com") {
+  
+  h1, h1.title, .topic h1.title {
+    color: #aaa;
+  }
+
+  body {
+    color: #aaa;
+    background-color: #333;
+  }
+  
+  p {
+    color: #aaa;
+  }
+  
+  h1.heading, h2, h2.heading, h2.subheading, h3, h3.subheading, h4, h4.subheading, h5, h5.subheading, .LW_CollapsibleArea_Title {
+    color: #aaa;
+  }
+  
+  .codeSnippetContainerCode pre {
+    color: #aaa !important;
+  }
+  
+  div#tocnav div.tocselected {
+    background-color: #444;
+    background-color: rgba(0,128,255,0.1);
+    color: #aaa;
+  }
+  
+  div#tocnav div.tocunselected a, div#tocnav div.tocunselected a:link {
+    color: #aaa;
+  }
+  
+  div#tocnav div.tocselected a, div#tocnav div.tocselected a:link, div#tocnav div.tocselected a:visited {
+    color: #aaa;
+  }
+  
+  div.alert th, th {
+    background-color: #777;
+    color: #aaa;
+  }
+  
+  .breadCrumb, .breadCrumb > span > a, .breadCrumb > span > a:link, .breadCrumb > span > a:hover, .breadCrumb > span > a:visited {
+    color: #aaa;
+  }
+  
+  div#content table, div#content th, div#content td, .codeSnippetContainerCodeContainer {
+    border-color: #555;
+    color: #aaa;
+  }
+  
+  div#rightNavigationMenu div#indoc_toc ul#indoc_toclist li, .codeSnippetContainerTabActive a, .codeSnippetContainerTabActive a:link, .codeSnippetContainerTabActive a:visited, .codeSnippetContainerTabActive a:active {
+    color: #aaa;
+  }
+  
+  div#rightNavigationMenu div#indoc_toc ul#indoc_toclist li:hover {
+    color: #00A4EF;
+    opacity: 0.6;
+  }
+  
+  div#rightNavigationMenu div#indoc_toc ul#indoc_toclist li {
+    border-left-color: rgba(0,0,0,0);
+  }
+  
+  div#ux-footer {
+    background-color: #000;
+  }
+  
+  div#ux-footer #Fragment_LeftLinks > .linkList > ul > li > a, div#ux-footer footer.top .linkListTitle {
+    color: #aaa;
+  }
+  
+  .codeSnippetContainerTabActive {
+      border: 1px solid rgba(0, 164, 239, 1);
+      background-color: rgba(0, 164, 239, 0.2);
+      color: rgba(0, 164, 239, 1);
+  }
+}

@@ -1,0 +1,89 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+#tabbrowser-tabs .tabbrowser-tab[selected] .tab-background>*, #tabbrowser-tabs .tabbrowser-tab[selected] .tab-background {
+}
+
+#navigator-toolbox > toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(:-moz-lwtheme), #browser-bottombox:not(:-moz-lwtheme), .browserContainer > findbar, #history-panel, #sidebar-box #sidebar-header {
+	background-color: rgb(52, 60, 69) !important;
+}
+
+
+#nav-bar {
+	background-image: none;
+	/*border-top: 1px solid rgba(10, 31, 51, 0.35) !important;*/
+	border-top: none;
+	/*box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset;*/
+	box-shadow: none;
+}
+
+
+/* Bottom Border */
+#navigator-toolbox:not(:-moz-lwtheme)::after {
+	background-color: black;
+}
+
+#nav-bar toolbarbutton, #sidebar-box #sidebar-header {
+	color: rgb(182, 186, 191);
+}
+
+/* Tab Right Side */
+.tab-background-end[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before, .tab-background-start[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before  {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNvyMY98AAAG5SURBVEhLxdbPK8NxHMfxXXAQVzdHf8GOK7UwDjaELclmsdA0o/1IW7SRJrbEsGmjZdnatNFmYxpyUA7k6OSGkpPS1OzLR62k97bP9/P54vC4fPt+X89vfb99+/IYhvkX4MG/wOMLGplmiTQrk6teBka092M6083axpYaOplLX2EIuplxg/nKHwjzoQtpFQznibt63yxzC6GDw+NqaIBUyXCeckjzGI0lqqAREthhRGswX+/uxcqgIbZYhZHZecc2NMQW63C7TJHx+YNN0BgbrMOIwWw9hcbYIAoLWzreU+mzcmgQF1EYWVn3GKFBXMRh3eT0BTSIizisUI0+QYO4iMPok5pMpWugURzEYSSyHxdCoziowotLqw5oFAdVmOYFowr3DaqfoVEcVGFBQ2uO9DlThRGbfdkNDZdCHVZrjbfQcCnUYfTdDoQiFdB4MdRhxGi2nkDjxXASFom7s06X1wAFCuEkjHz+Gj8Ew9E6KALhLIxMGKcuoQiE0zAyrNHfuTw+JRT7jvMw0iaVZ2Zs9p14MlUJRZFfCed19ihf9SbLudvr648ljmr/LPxTvUiSc7o8mwzD8D4A+piJ/H0/ZLUAAAAASUVORK5CYII=');
+}
+.tab-background-end[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::after, .tab-background-start[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::after, .tab-background-start[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::after, .tab-background-end[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::after {
+	opacity: 0.2;
+}
+
+/* Tab Left Side */
+.tab-background-start[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before, .tab-background-end[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAfCAYAAADwbH0HAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNvyMY98AAAGjSURBVEhLxda9SwJxHMfxloj+gcam5mhwdEyISMQwy7CIMLEHKiOVTEsiHVyUogc5xCgLyUoSJcsIoqExmoMggv4Cqejp4oLA5OPd9/fTangtx937A4L3uxpRFP8FvPgX4MVqikQ3rZMOz7VlxP5gNFsKbbruN5Vag2+u1M7uQbPD7bv8HkHgg7z2DzO1gWB4S98z8ITGisEAj0QyVTc84bxFIwiM8JB+WjRQDoywCi2vB1FcDgyx2E7sqYx9QwUUlwNjLGZ9gQwKK4ExFnJ/GTkwRiW9HFCUAgapZuYWT1GUAgaprGNT9yhKAYMU0ltKZ+x/RlEKGKXI5vJNKEgFoxRLq4IXBalglMI978+hIBWMUkjnKwpSwaiSdPa4RdPR9Y6CVDCshOdQKAXDSuwu7xWKsYBhJe160yuKsYBhObynUSkYL2dN2LBpDeYXFGIFB5BkKt1gG5++QxEecASp5CRC4EgxIRY3j9pdN+jhSsAxSf7svN4fDMU7TcrfyDx+jGWOThqlrwqnZ+HC0Dv4iB6olq/BlUg0pm7VfqAbfodG/ASzfYyXh9yO1AAAAABJRU5ErkJggg==');
+}
+
+/* Tab Center */
+.tab-background-middle[visuallyselected="true"]:not(:-moz-lwtheme) {
+	/*background-image: url("chrome://browser/skin/tabbrowser/tab-active-middle.png"), linear-gradient(transparent, transparent 2px, rgba(254, 254, 254, 0.72) 2px, rgba(254, 254, 254, 0.72) 2px, rgba(250, 250, 250, 0.88) 3px, rgba(250, 250, 250, 0.88) 3px, rgba(254, 254, 254, 0.72) 4px, rgba(254, 254, 254, 0) 4px, rgba(253, 253, 253, 0)), none;*/
+	background-image: url("chrome://browser/skin/tabbrowser/tab-active-middle.png"), linear-gradient(rgba(52, 60, 69, 0), rgba(52, 60, 69, 1) ), none;
+
+	background-color: rgb(52, 60, 69);
+	/*background: linear-gradient(rgba(52, 60, 69, 0), rgba(52, 60, 69, 1) );*/
+	background-image: none;
+	margin-top: 2px;
+	box-shadow: 0px 1px 0px rgba(255,255,255,0.2) inset;
+	/*background: linear-gradient(rgba(52, 60, 69, 1), rgba(52, 60, 69, 0), rgba(52, 60, 69, 1) );*/
+}
+
+#tabbrowser-tabs .tabbrowser-tab .tab-text.tab-label {
+	color: #fff;
+	/*text-shadow: 0px 0px 5px white !important;*/
+}
+
+#urlbar, #bookmarksPanel, #bookmarksPanel #bookmarks-view-children {
+	color: rgb(184, 200, 217);
+	background-color: #181D20;
+}
+
+/* Bookmarks Toolbar */
+.bookmark-item {
+	min-width: 26px;
+}
+
+.bookmark-item .toolbarbutton-text , .bookmark-item .toolbarbutton-icon {
+	transition: opacity 0.5s;
+}
+.bookmark-item:hover .toolbarbutton-text , .bookmark-item:hover .toolbarbutton-icon {
+	transition: opacity 0s;
+}
+
+.bookmark-item .toolbarbutton-icon {
+	margin-right: -12px;
+	opacity: 0.3;
+}
+
+.bookmark-item:hover .toolbarbutton-text {
+	opacity: 0.3;
+}
+
+.bookmark-item:hover .toolbarbutton-icon {
+	opacity: 1;
+}
+
