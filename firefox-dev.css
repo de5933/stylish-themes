@@ -62,28 +62,4 @@
 	background-color: #181D20;
 }
 
-/* Bookmarks Toolbar */
-.bookmark-item {
-	min-width: 26px;
-}
-
-.bookmark-item .toolbarbutton-text , .bookmark-item .toolbarbutton-icon {
-	transition: opacity 0.5s;
-}
-.bookmark-item:hover .toolbarbutton-text , .bookmark-item:hover .toolbarbutton-icon {
-	transition: opacity 0s;
-}
-
-.bookmark-item .toolbarbutton-icon {
-	margin-right: -12px;
-	opacity: 0.3;
-}
-
-.bookmark-item:hover .toolbarbutton-text {
-	opacity: 0.3;
-}
-
-.bookmark-item:hover .toolbarbutton-icon {
-	opacity: 1;
-}
 
