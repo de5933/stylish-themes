@@ -1,0 +1,12 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("wikia.com") {
+  #WikiaBar,
+  #globalNavigation,
+  .wikia-ad,
+  #WikiaRail>:nth-child(2),
+  #WikiaArticleFooter>:nth-child(1)
+   {
+    display: none;
+  }
+}
