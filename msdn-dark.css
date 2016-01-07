@@ -17,12 +17,12 @@
     color: #aaa;
   }
   
-  h1.heading, h2, h2.heading, h2.subheading, h3, h3.subheading, h4, h4.subheading, h5, h5.subheading, .LW_CollapsibleArea_Title {
-    color: #aaa;
+  a {
+    color: #3272D2;
   }
   
-  .codeSnippetContainerCode pre {
-    color: #aaa !important;
+  h1.heading, h2, h2.heading, h2.subheading, h3, h3.subheading, h4, h4.subheading, h5, h5.subheading, .LW_CollapsibleArea_Title {
+    color: #aaa;
   }
   
   div#tocnav div.tocselected {
@@ -79,4 +79,34 @@
       background-color: rgba(0, 164, 239, 0.2);
       color: rgba(0, 164, 239, 1);
   }
+  
+  /* Code */
+  
+  .codeSnippetContainerCode pre {
+    color: rgb(220,220,220) !important;
+  }
+  
+  .codeSnippetContainerCode {
+    background-color: rgb(30,30,30) !important;
+  }
+  
+  /* keywords */
+  .codeSnippetContainerCode pre span[style="color:Blue;"] {
+    color: rgb(86, 156, 214) !important;
+  }
+  
+  /* string literals */
+  
+  .codeSnippetContainerCode pre span[style="color:#A31515;"] {
+    color: rgb(214, 157, 133) !important;
+  }
+  
+  /* Comments */
+  .codeSnippetContainerCode pre span[style="color:Green;"] {
+    color: rgb(87, 166, 74) !important;
+  }
+  
 }
+
+
+
