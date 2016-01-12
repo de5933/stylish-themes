@@ -1,0 +1,30 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("wikia.com") {
+  #WikiaBar,
+  .wikia-ad,
+  #WikiaRail>:nth-child(2),
+  #WikiaArticleFooter>:nth-child(1)
+   {
+    display: none;
+  }
+  
+  /* Hide most of the global navigation */
+  #globalNavigation {
+    background-color:transparent;
+    box-shadow: none;
+    border: none;
+  }
+  
+  #globalNavigation .global-navigation-container>*  {
+    display:none;
+  }
+  
+  /* Show the search bar on the right */
+  #globalNavigation .global-navigation-container .search-container {
+    width: 300px;
+    float: right;
+    display: table-cell;
+    opacity: 1.0;
+  }
+}
