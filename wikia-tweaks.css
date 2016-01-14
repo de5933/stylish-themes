@@ -3,6 +3,7 @@
 @-moz-document domain("wikia.com") {
   #WikiaBar,
   .wikia-ad,
+  #WikiaNotifications,
   #WikiaRail>:nth-child(2),
   #WikiaArticleFooter>:nth-child(1)
    {
