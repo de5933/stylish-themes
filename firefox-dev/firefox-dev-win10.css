@@ -1,0 +1,83 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* https://developer.mozilla.org/en-US/docs/Tools/DevToolsColors */
+/* https://developer.mozilla.org/en-US/docs/Building_a_Theme */
+
+#main-window {
+	background-color: #252c33;
+}
+
+#main-window::-moz-selection {
+	background-color: #1d4f73;
+}
+
+#titlebar-buttonbox .toolbarbutton-icon {
+	filter: invert(100%);
+}
+
+
+#tabbrowser-tabs .tabbrowser-tab[selected] .tab-background>*, #tabbrowser-tabs .tabbrowser-tab[selected] .tab-background {
+}
+
+#navigator-toolbox > toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(:-moz-lwtheme), #browser-bottombox:not(:-moz-lwtheme), .browserContainer > findbar, #history-panel, #sidebar-box #sidebar-header {
+	background-color: rgb(52, 60, 69) !important;
+	background-image: none !important;
+}
+
+
+#nav-bar {
+	background-image: none;
+	/*border-top: 1px solid rgba(10, 31, 51, 0.35) !important;*/
+	border-top: none;
+	/*box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset;*/
+	box-shadow: none;
+}
+
+
+/* Bottom Border */
+#navigator-toolbox:not(:-moz-lwtheme)::after {
+	background-color: black;
+}
+
+#nav-bar toolbarbutton, #sidebar-box #sidebar-header {
+	color: rgb(182, 186, 191);
+}
+
+
+
+/* Tab Right Side */
+.tab-background-end[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before, .tab-background-start[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before  {
+	
+
+	
+}
+.tab-background-end[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::after, .tab-background-start[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::after, .tab-background-start[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::after, .tab-background-end[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::after {
+	opacity: 0.2;
+}
+
+/* Tab Left Side */
+.tab-background-start[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before, .tab-background-end[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before {
+	
+
+}
+
+/* Tab Center */
+.tab-background-middle[visuallyselected="true"]:not(:-moz-lwtheme) {
+	background-color: rgb(52, 60, 69);
+	background-image: none;
+	margin-top: 2px;
+}
+
+#tabbrowser-tabs .tabbrowser-tab .tab-text.tab-label {
+	color: #fff;
+}
+
+#urlbar, #bookmarksPanel, #bookmarksPanel #bookmarks-view-children {
+	color: rgb(184, 200, 217);
+	background-color: #181D20;
+}
+
+#urlbar {
+	border-color: black !important;
+}
+ 
