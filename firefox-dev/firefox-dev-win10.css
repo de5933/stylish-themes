@@ -68,8 +68,16 @@
 	margin-top: 2px;
 }
 
+.tabbrowser-tab[pending=true] .tab-background-middle {
+	background-color: green;
+}
+
 #tabbrowser-tabs .tabbrowser-tab .tab-text.tab-label {
 	color: #fff;
+}
+
+.tab-icon-sound {
+	filter: invert(100%);
 }
 
 #urlbar, #bookmarksPanel, #bookmarksPanel #bookmarks-view-children {
@@ -81,3 +89,10 @@
 	border-color: black !important;
 }
  
+#toolbar-menubar {
+	text-shadow: none !important;
+}
+
+#main-menubar .menubar-text {
+	color: #b6babf;
+}
