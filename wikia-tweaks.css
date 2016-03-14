@@ -3,9 +3,15 @@
 @-moz-document domain("wikia.com") {
   #WikiaBar,
   .wikia-ad,
+  #WikiaTopAds, 
+  #WikiaFooter,
   #WikiaNotifications,
   #WikiaRail>:nth-child(2),
-  #WikiaArticleFooter>:nth-child(1)
+  #WikiaArticleFooter>:nth-child(1),
+  #TOP_LEADERBOARD_AB, 
+  .recirculation-horizontal, 
+  .recirculation-footer,
+  .global-footer
    {
     display: none;
   }
@@ -15,6 +21,12 @@
     background-color:transparent;
     box-shadow: none;
     border: none;
+    height: 0;
+  }
+  
+  #globalNavigation .global-navigation-container {
+    height: 0;
+    display: block;
   }
   
   #globalNavigation .global-navigation-container>*  {
