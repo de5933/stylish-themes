@@ -1,0 +1,44 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("www.washingtonpost.com") {
+  
+  /* Hide popup */
+  .Mask__root___3G-KU,
+  .wp_alert, #wp_Alert {
+    display: none !important;
+  }
+  
+  /* Disable scrolling */
+  html.drawbridge-up, html.drawbridge-up #pb-root, html.drawbridge-up body {
+    overflow: visible !important;
+  }
+  
+  /* Hide social media tools */
+  .top-sharebar-wrapper.vertical-sticky-top-sharebar,
+  #comments {
+    display:none;
+  }
+  
+  /* Hide header */
+  .pb-f-page-header-v2,
+  .headline-kicker {
+    display: none;
+  }
+  
+  /* Hide recommendations */
+  #post-recommends,
+  #right-rail {
+    display: none;
+  }
+  
+  /* Hide inline subscribe ad */
+  .pb-f-page-newsletter-inLine {
+    display: none;
+  }
+  
+  /* Maximize article width */
+  #main-content {
+    width: 100% !important;
+    
+  }
+}
