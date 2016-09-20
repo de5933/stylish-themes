@@ -9,6 +9,9 @@
   #WikiaRail>:nth-child(2),
   #WikiaArticleFooter>:nth-child(1),
   #TOP_LEADERBOARD_AB, 
+  #WikiaRail,
+  .WikiaSiteWrapper > div:nth-child(5),
+  .WikiaPageContentWrapper aside,
   .recirculation-horizontal, 
   .recirculation-footer,
   .global-footer
@@ -40,4 +43,6 @@
     display: table-cell;
     opacity: 1.0;
   }
+  
 }
+
