@@ -8,6 +8,7 @@
   #WikiaNotifications,
   #WikiaRail>:nth-child(2),
   #WikiaArticleFooter>:nth-child(1),
+  #RECIRCULATION_RAIL,
   #TOP_LEADERBOARD_AB, 
   .recirculation-horizontal, 
   .recirculation-footer,
@@ -16,28 +17,11 @@
     display: none;
   }
   
-  /* Hide most of the global navigation */
+  /* Don't let header scroll with the page */
   #globalNavigation {
-    background-color:transparent;
-    box-shadow: none;
-    border: none;
-    height: 0;
+    position: inherit;
+    display: inline;
   }
   
-  #globalNavigation .global-navigation-container {
-    height: 0;
-    display: block;
-  }
-  
-  #globalNavigation .global-navigation-container>*  {
-    display:none;
-  }
-  
-  /* Show the search bar on the right */
-  #globalNavigation .global-navigation-container .search-container {
-    width: 300px;
-    float: right;
-    display: table-cell;
-    opacity: 1.0;
-  }
+
 }
