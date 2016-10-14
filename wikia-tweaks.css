@@ -10,6 +10,9 @@
   #WikiaArticleFooter>:nth-child(1),
   #RECIRCULATION_RAIL,
   #TOP_LEADERBOARD_AB, 
+  #WikiaRail,
+  .WikiaSiteWrapper > div:nth-child(5),
+  .WikiaPageContentWrapper aside,
   .recirculation-horizontal, 
   .recirculation-footer,
   .global-footer
@@ -22,6 +25,4 @@
     position: inherit;
     display: inline;
   }
-  
-
 }
