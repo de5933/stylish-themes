@@ -46,38 +46,30 @@
 
 
 /* Tab Right Side */
-.tab-background-end[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before, .tab-background-start[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before  {
+.tab-background-end[selected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before, .tab-background-start[selected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before  {
 	
 
 	
 }
-.tab-background-end[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::after, .tab-background-start[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::after, .tab-background-start[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::after, .tab-background-end[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::after {
+.tab-background-end[selected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::after, .tab-background-start[selected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::after, .tab-background-start[selected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::after, .tab-background-end[selected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::after {
 	opacity: 0.2;
 }
 
 /* Tab Left Side */
-.tab-background-start[visuallyselected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before, .tab-background-end[visuallyselected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before {
+.tab-background-start[selected="true"]:-moz-locale-dir(ltr):not(:-moz-lwtheme)::before, .tab-background-end[selected="true"]:-moz-locale-dir(rtl):not(:-moz-lwtheme)::before {
 	
 
 }
 
 /* Tab Center */
-.tab-background-middle[visuallyselected="true"]:not(:-moz-lwtheme) {
+.tab-background-middle[selected="true"]:not(:-moz-lwtheme) {
 	background-color: rgb(52, 60, 69);
 	background-image: none;
 	margin-top: 2px;
 }
 
-.tabbrowser-tab[pending=true] .tab-background-middle {
-	background-color: green;
-}
-
 #tabbrowser-tabs .tabbrowser-tab .tab-text.tab-label {
 	color: #fff;
-}
-
-.tab-icon-sound {
-	filter: invert(100%);
 }
 
 #urlbar, #bookmarksPanel, #bookmarksPanel #bookmarks-view-children {
@@ -89,10 +81,4 @@
 	border-color: black !important;
 }
  
-#toolbar-menubar {
-	text-shadow: none !important;
-}
 
-#main-menubar .menubar-text {
-	color: #b6babf;
-}
